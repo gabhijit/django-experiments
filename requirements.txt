@@ -1,0 +1,4 @@
+uwsgi
+django
+django-uwsgi
+djangorestframework
