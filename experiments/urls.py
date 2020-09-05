@@ -21,5 +21,5 @@ from experiments.apps.simple_example.views import SimpleExampleViewSet
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('simple/', SimpleExampleViewSet.as_view)
+    path('simple/', SimpleExampleViewSet.as_view({'get': 'list'}))
 ]
